@@ -1,0 +1,81 @@
+/* write your css code */
+.app-container {
+  width: 100vw;
+  padding: 20px;
+}
+.list li {
+  list-style-type: none;
+}
+
+.app-container {
+  display: flex;
+}
+.navbar {
+  margin-right: 5%;
+  width: 25vw;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+}
+.from-container p {
+  font-size: 20px;
+}
+.to-container p {
+  font-size: 20px;
+}
+.request-container p {
+  color: rgb(236, 85, 85);
+  font-weight: bold;
+  font-size: 20px;
+}
+.view-btn {
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: rgb(236, 85, 85);
+  border: solid 2px rgb(236, 85, 85);
+}
+
+.quotes-btn {
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: rgb(236, 85, 85);
+  color: white;
+  border: solid 2px rgb(236, 85, 85);
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.details-container div {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.details-container button {
+  margin-right: 15px;
+}
+.disclaimer-head {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.span-para {
+  font-weight: 500;
+  font-size: 20px;
+}
+.hr-line {
+  width: 100%;
+  color: gray;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
